@@ -286,6 +286,9 @@ p {
     margin: 0 auto 2.5rem;
 }
 
+
+
+
 /*About css*/
 .about_wrapper h2{
     color: var(--text-black);
@@ -366,3 +369,59 @@ p {
     margin-bottom: 1.875rem;
 }
 
+
+
+/*Team Section*/
+.team_wrapper .card{ 
+    padding: 1.25rem;
+}
+
+.team_wrapper .card:hover {
+    -webkit-transform: translateY(-0.625rem);
+    transform: translateY(-0.625rem);
+} 
+
+.team_wrapper .team-img{
+    margin: 0 auto;
+}
+
+
+.team_wrapper .team-info .social-networks { 
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    padding: .625rem 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team_wrapper .team-info .social-networks li a { 
+    width: 1.5625rem;
+    height: 1.5625rem;
+    line-height: 1.5625rem;
+    display: block;
+    border-radius: .3125rem;
+    margin: 0 .3125rem;
+    font-size: .75rem;
+    background-color: var(--bg-dark);
+    color: var(--text-white);
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+
+.team_wrapper .team-info .social-networks li a:hover {
+    background-color: var(--secondary-color);
+}
+
+/*GAllery section*/
+.gallery_wrapper {
+    background-image: url('../images/gallery/gallery-background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+}
+
+.gallery_wrapper img {
+    border-radius: .9375rem;
+}
