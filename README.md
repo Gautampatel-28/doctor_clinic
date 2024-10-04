@@ -2,6 +2,7 @@
 
 ![image](https://github.com/user-attachments/assets/21f4c699-e218-483d-a356-d6414f0b970f)
 
+static page built using Bootstrap 5
 Offers a clean and modern design for
 easy navigation and a professional look.
 It provides essential clinic services and
